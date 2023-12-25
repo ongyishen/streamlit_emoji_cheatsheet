@@ -1,8 +1,12 @@
 # Streamlit Emoji Cheat Sheet
 
+
 This is a simple web app built with Streamlit that displays emoji data from a JSON file.
 
 ![Demo Image](https://github.com/ongyishen/streamlit_emoji_cheatsheet/blob/2121ba038a1b4ceee2ea3a32d801b5a73010762d/Demo.jpg)
+
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-DemoAppLinkClickMe-blue)](https://emojicheatsheet.streamlit.app)
 
 ## Installation
 
