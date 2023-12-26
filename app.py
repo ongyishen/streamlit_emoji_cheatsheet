@@ -41,13 +41,12 @@ def display_emojis_in_table(emojis):
         col = i % col_count  # Calculate the current column index
 
         with cols[col]:
-            st.write(f"{key}: {emojis[key]}")
-            # Add a copy value button
-            copy_button = st.button(
-                key=key, help="Click to copy",  label="Copy Value")
-            if copy_button:
-                pyperclip.copy(emojis[key])  # Copy the value to the clipboard
-                st.toast('Copied to clipboard!', icon="📋")
+            col1, col2 = st.columns(2)
+            with col1:
+                st.write(f"{key}:")
+            with col2:
+                # Add a copy value button
+                st.code(emojis[key])
 
         if row < row_count - 1:
             st.write("")  # Add spacing between rows
