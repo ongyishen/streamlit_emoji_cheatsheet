@@ -53,7 +53,7 @@ def display_emojis_in_table(emojis):
 
 
 # Create the Streamlit app
-st.title("🌋Emoji CheetSheet : Search & Copy🌋")
+st.title("🌋Emoji CheatSheet : Search & Copy🌋")
 
 search_term = st.sidebar.text_input("Search Emoji")
 
